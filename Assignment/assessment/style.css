@@ -1,0 +1,14 @@
+h1{
+	
+	background: black;
+	text-decoration-color: rgb(255,255,255);
+	}
+	h3{
+		background-color: orange;
+		width: 250px;
+
+		}
+		*h3{
+			background: orange;
+			width: 250px;
+		}

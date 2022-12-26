@@ -1,0 +1,79 @@
+Abstract :
+
+Online Doctor appointment is a smart web application, this provides a registration and login for both doctors and patients. Doctors can register by giving his necessary details like timings, fee, category, etc. After successful registration, the doctor can log in by giving username and password. The doctor can view the booking request by patients and if he accepts the patient requests the status will be shown as booking confirmed to the patient. He can also view the feedback given by the patient. The patients must be registered and log in to book a doctor basing the category and the type of problem patient is facing and the location. The search results will show the list of doctors matching patients required criteria and he can select one and send a request the request will be forwarded to admin and admin forward to doctor and if he is available he will send the confirmation request back to admin the admin update the booking request and says confirmed to the patient. the patient can view the status in the status tab and also he will get the mail saying the booking is Confirmed.
+The Application has following modules
+•	Admin
+•	Doctor
+•	Patient
+
+Keywords :
+
+Information system, Database system, DBMS, parent table, child table, table fields, 
+primary key, foreign key, relationship, sql queries, objects, classes, oops,
+spring framework,springboot, microservices,zuul,eureka,config server,restful api,Angular , html , css ,
+typescript.
+
+Tools  & Softwares :
+
+VS code , Java 1.8 , Spring tool suite , MySql , AWS servers (EC2) , Eclipse , VS code , postman ,jmeter,Apache maven/gradle
+
+Tech Stack :
+
+Java 1.8 , spring framework (5.x), Spring boot (2.x) , Microservices (zuul , eureka ,config server , service registry, circuit breaker, hystrix) , mysql , aws , angular , html , css , typescript.
+
+GRADING SYSTEM MODULES:
+
+Admin:
+Admin needs to login with username and password and in the admin home screen, he can see the basic functionalities of admin. Admin can view the registered doctors and patients. He can also view the patient’s request and doctors requests and he will confirm the patients and doctors requests.
+Doctor:
+Doctor need to be registered by giving the necessary details like experience, timing, fees etc. After registering he need to log in and in the home screen he can view the basic functionalities. He can view the patient request forwarded from admin and he can accept and he can also view the feedback given by patients.
+Patient:
+The patient needs to be registered and log in after logging on he can search for the doctor by giving the location, the reason or problem. Basing on the doctor availability the admin will confirm the booking request and will send to mail that the booking is confirmed he can also view in the status and he can also give feedback basing the performance of the doctor.
+Existing System:
+In the existing system the patient needs to visit the doctor for booking we need to wait and the booking will be done manually so to maintain everything is always a problem.
+Proposed System:
+In the proposed system the doctors patients are brought to one platform will allow patients to be more flexible they can register and search for the doctors basing on the location the list of doctors will be shown and patient can book by selecting  the time slots and the admin will confirm the booking so everything is computerized an done very fast which will save time.
+HARDWARE REQUIREMENT:
+ 
+•	Core i3 (Processor). 
+•	3gb Ram
+•	1016 KB Cache Memory
+•	Hard disk 50 GB 
+•	Internet connection.
+ 
+SOFTWARE REQUIREMENT:
+ 
+•	Windows 
+•	JAVA 1.8
+•	STS /Eclipse
+•	APACHE MAVEN
+•	Mysql
+•	HTML/CSS/JavaScript
+•	GIT / Jenkins /Docker/Kubernates
+•	VS Code
+ 
+
+List Of API’s:
+
+We are going to have 6 apis to manage employee system in an organization.
+
+1.	Admin basic controller
+2.	History controller
+3.	Time Information controller
+4.	User Information controller
+5.	Doctors feed Information Controller
+
+ Need to add service layer business logic as per requirements and dao layer as well.
+
+Use jdbc /jpa approach as per convenience.
+Use RestFul Webservices
+Use GET , POST , PUT ,DELETE for CRUD ops.
+Use Mysql Database
+Use Postman /Jmeter for testing backend.
+Use angular as FE.
+
+
+CONCLUSION: It is a very cost-effective and time-saving consultation system. One does not need to go away to have doctor consultation. He/she can get the relavant appointment to his/her choice at a single click and in a very little time stamp. 
+
+
+
